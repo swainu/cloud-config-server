@@ -18,4 +18,4 @@ order-service:
       
       
 random:
-  endpoint: http://localhost:8000/insurance-service/plans1
+  endpoint: http://localhost:8000/insurance-service/plans12
