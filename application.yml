@@ -15,3 +15,7 @@ order-service:
   endpoints:
     endpoint:
       uri: http://order-service/orders/book    
+      
+      
+insurance-endpoint: http://localhost:8000/insurance-service/plans
+ 
