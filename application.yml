@@ -19,4 +19,4 @@ order-service:
       
 insurance:
   provider:
-    url: http://localhost:8000/insurance-service/plan
+    url: http://localhost:8000/insurance-service/plans
