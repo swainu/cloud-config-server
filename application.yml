@@ -19,3 +19,5 @@ order-service:
       
 random:
   endpoint: http://localhost:8000/insurance-service/plans123
+  
+message: Hello    
