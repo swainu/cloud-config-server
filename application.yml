@@ -19,6 +19,6 @@ order-service:
       
 insurance:
   endpoint: 
-    uri: http://localhost:8000/insurance-service/plans
+    uri: http://localhost:8000/insurance-service/plans123
   
 message: Hello Testing how are u
