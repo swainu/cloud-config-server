@@ -17,7 +17,8 @@ order-service:
       uri: http://order-service/orders/book    
       
       
-random:
-  endpoint: http://localhost:8000/insurance-service/plans123
+insurance:
+  endpoint: 
+    uri: http://localhost:8000/insurance-service/plans
   
 message: Hello Testing how are u
