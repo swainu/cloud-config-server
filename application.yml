@@ -21,4 +21,6 @@ insurance:
   endpoint: 
     uri: http://localhost:8000/insurance-service/plans12345
   
-message: Hello Testing how are u
+limits-service:
+  minimum: 8
+  maximum: 8888
