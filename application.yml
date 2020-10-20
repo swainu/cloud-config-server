@@ -22,5 +22,5 @@ insurance:
     uri: http://localhost:8000/insurance-service/plans12345
   
 limits-service:
-  minimum: 8
-  maximum: 8888
+  minimum: 9
+  maximum: 99
