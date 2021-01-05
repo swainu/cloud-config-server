@@ -28,3 +28,5 @@ hystrix:
   dashboard:
     proxy-stream-allow-list: "*"
           
+#cloud-bus-testing
+uks.name=udayakanta
