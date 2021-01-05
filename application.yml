@@ -24,3 +24,33 @@ insurance:
 limits-service:
   minimum: 9
   maximum: 99
+  
+#mysql configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb
+    username: root
+    password: admin
+ 
+  zipkin:
+    base-url: http://localhost:9411/
+  sleuth:
+    sampler:
+      probability: 1 
+  cloud:
+    config:
+      uri: http://localhost:8888
+      
+server:
+  port: 9090
+#Eureka server configuration
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+      
+#hystrix dashboard
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+          
