@@ -16,7 +16,7 @@ spring:
       uri: http://localhost:8888
       
 server:
-  port: 9090
+  port: 9095
 #Eureka server configuration
 eureka:
   client:
