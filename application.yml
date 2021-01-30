@@ -1,4 +1,7 @@
-  
+limit-service:
+  minimum: 200
+  maximum: 900
+
 #mysql configuration
 spring:
   datasource:
