@@ -1,4 +1,4 @@
-limit-service:
+test:
   minimum: 200
   maximum: 900
 
